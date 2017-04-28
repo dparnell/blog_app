@@ -30,14 +30,14 @@ defmodule BlogApp.Mixfile do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:phoenix, "~> 1.3.0-rc"},
+      {:phoenix, "~> 1.3.0-rc.1"},
       {:phoenix_pubsub, "~> 1.0"},
       {:phoenix_ecto, "~> 3.2"},
       {:postgrex, ">= 0.0.0"},
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
-      {:absinthe, "~> 1.3.0-rc.0"},
-      {:absinthe_plug, "~> 1.3.0-rc.0"},
+      {:absinthe, "~> 1.3.0"},
+      {:absinthe_plug, "~> 1.3.0"},
       {:absinthe_ecto, git: "https://github.com/absinthe-graphql/absinthe_ecto.git"},
       {:faker, "~> 0.7"},
     ]
